@@ -13,5 +13,5 @@ This project relies on two main data sources: OSM geometry and OSM attributes. T
 **OSM Geometry:**  
     http://download.geofabrik.de/  
 
-** >OSM attributes:**   
+**OSM attributes:**   
    https://overpass.kumi.systems/api/interpreter
