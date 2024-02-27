@@ -8,3 +8,10 @@ Set up python environment using:
 **conda activate routing_project**  
 Install packages outlined in #requirements.txt using   
 **conda install --file requirements.txt -c conda-forge**
+# Data Sources
+This project relies on two main data sources: OSM geometry and OSM attributes. The OSM geometry data, available for download from the provided URL, contains detailed information about road networks, including road segments, intersections, and geographic coordinates. Complementing this, OSM attributes, obtained through the Overpass API, offer additional insights into road classifications, surface conditions, and other relevant attributes. By combining these datasets, the project ensures comprehensive coverage of road network data necessary for effective route planning.  
+**OSM Geometry:**  
+    http://download.geofabrik.de/  
+
+** >OSM attributes:**   
+   https://overpass.kumi.systems/api/interpreter
