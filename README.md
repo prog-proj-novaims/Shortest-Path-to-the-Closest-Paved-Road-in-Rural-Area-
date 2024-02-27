@@ -15,3 +15,5 @@ This project relies on two main data sources: OSM geometry and OSM attributes. T
 
 **OSM attributes:**   
    https://overpass.kumi.systems/api/interpreter
+# ETL Process
+The Extract, Transform, Load (ETL) process plays a crucial role in preparing and processing OSM data for route calculations. Initially, the data is downloaded in PBF format and filtered using 'osmconvert' to extract relevant road network information. Subsequently, the **'osm2pgrouting'** tool is employed to import the processed data into the PostgreSQL database, optimizing it for routing operations. Additionally, an ETL process extracts surface information for road segments within predefined grid cells, enhancing the accuracy of route planning by considering road surface data.
