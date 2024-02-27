@@ -5,6 +5,6 @@ Through a user-friendly interface, users input the Parcel ID, and the applicatio
 # Requirements
 Set up python environment using:  
 **conda create -n routing_project**  
-**conda activate routing_project**
+**conda activate routing_project**  
 Install packages outlined in #requirements.txt using   
 **conda install --file requirements.txt -c conda-forge**
