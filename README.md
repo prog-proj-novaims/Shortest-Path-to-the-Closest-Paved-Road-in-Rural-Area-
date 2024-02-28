@@ -38,7 +38,7 @@ By combining these datasets, the project ensures comprehensive coverage of road 
 Certainly! Here's an improved version of the text:
 
 # ETL Process
-The Extract, Transform, Load (ETL) process plays a pivotal role in preparing and processing OpenStreetMap (OSM) data for route calculations. Let's delve into the key components of this process:
+The **Extract, Transform, Load (ETL)** process plays a crucial role in preparing and processing OpenStreetMap (OSM) data for route calculations. Let's delve into the key components of this process:
 
 1. **Data Extraction and Initial Processing**:
     - Initially, raw OSM data is downloaded in PBF (Protobuf Binary Format) format.
@@ -62,9 +62,3 @@ The Extract, Transform, Load (ETL) process plays a pivotal role in preparing and
 - It handles HTTP requests related to route calculations and farm location management.
 - Integrated with the PostgreSQL database, the API efficiently retrieves and inserts routing information.
 - This seamless interaction between the backend and frontend ensures dynamic route visualization and calculation.
-
-# Frontend:
-- The frontend web application provides an intuitive user interface for interacting with the routing system.
-- Built using HTML, CSS, and JavaScript, it leverages the Leaflet.js library for map visualization.
-- Users can input farm location IDs, calculate distances, and visualize route information.
-- The frontend bridges the gap between users and the underlying routing functionality..
